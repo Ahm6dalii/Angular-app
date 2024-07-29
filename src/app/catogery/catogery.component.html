@@ -1,4 +1,5 @@
 <h3 class="py-3 text-center">Catogery</h3>
+
 <div class="container">
     <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -6,9 +7,9 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="card">
-                  <img src="assets/images/2.jpg" class="card-img-top" alt="...">
+                  <img [src]="catogery[0].imgUrl" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title 1</h5>
+                    <h5 class="card-title">{{catogery[0].title}}</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -16,9 +17,9 @@
               </div>
               <div class="col-md-6">
                 <div class="card">
-                  <img src="assets/images/OIP.jpeg" class="card-img-top" alt="...">
+                  <img [src]="catogery[1].imgUrl" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title 2</h5>
+                    <h5 class="card-title">{{catogery[1].imgUrl}}</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -30,9 +31,9 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="card">
-                  <img src="assets/images/OIP1.jpeg" class="card-img-top" alt="...">
+                  <img [src]="catogery[2].imgUrl" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title 3</h5>
+                    <h5 class="card-title">{{catogery[2].imgUrl}}</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -40,9 +41,9 @@
               </div>
               <div class="col-md-6">
                 <div class="card">
-                  <img src="assets/images/2.jpg" class="card-img-top" alt="...">
+                  <img [src]="catogery[3].imgUrl" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title 4</h5>
+                    <h5 class="card-title">{{catogery[3].imgUrl}}</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
