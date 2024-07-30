@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { produt } from '../../interfaces/product';
+import { produt } from '../../../interfaces/product';
+import { ProductsItemComponent } from '../products-item/products-item.component';
 
 @Component({
   selector: 'app-catogery',
   standalone: true,
-  imports: [],
+  imports: [ProductsItemComponent],
   templateUrl: './catogery.component.html',
   styleUrl: './catogery.component.css',
 })
@@ -25,7 +26,6 @@ export class CatogeryComponent {
     {
       title: 'Card title 3',
       imgUrl: 'assets/images/2.jpg',
-    }
+    },
   ];
-  
 }

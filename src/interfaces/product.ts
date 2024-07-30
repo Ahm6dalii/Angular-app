@@ -1,4 +1,5 @@
 export interface produt{
     title:string
-    imgUrl:string
+    imgUrl:string,
+    onSale?:boolean
 }
